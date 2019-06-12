@@ -2,11 +2,13 @@
 ## low-carb, fat free, and no nonsense shopping cart for express
 ### express, sqlite, bulma
 
-- columns=row, colum=col
-- new colors:ali,bei
-- has-background-color=bkg-color
-- has-text=has-t
-- has-text-centered=has-t-cen
+```sh
+sed -i s/columns/row/g *.css
+sed -i s/column/col/g *.css
+sed -i s/has-background/bkg/g *.css
+sed -i s/has-text-centered/has-t-cen/g *.css
+sed -i s/has-text/has-t/g *.css
+```
 
 ```scss
 $ali:aliceblue;
