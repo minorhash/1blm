@@ -1,4 +1,5 @@
-
+cd css
+pwd
 sed -i s/columns/row/g *.css
 sed -i s/column/col/g *.css
 sed -i s/has-background/bkg/g *.css
