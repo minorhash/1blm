@@ -5,6 +5,8 @@
 - columns=row, colum=col
 - new colors:ali,bei
 - has-background-color=bkg-color
+- has-text=has-t
+- has-text-centered=has-t-cen
 
 ```scss
 $ali:aliceblue;
